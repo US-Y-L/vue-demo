@@ -15,8 +15,7 @@ export default {
 @import "./assets/css/index.styl"
   #app
     s-size(100vw,100vh)
-    backgroud #666666
-
+    background-color #666
   .el-breadcrumb
         margin 20px 0
 

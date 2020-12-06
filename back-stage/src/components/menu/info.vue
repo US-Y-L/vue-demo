@@ -3,10 +3,10 @@
         <!-- <h1 v-if="!$route.params.id">菜单添加页面</h1>
         <h1 v-else>菜单修改页面</h1> -->
         <el-breadcrumb separator="/">
-            <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
+            <el-breadcrumb-item :to="{ path: '/' }">首页uiiiuui</el-breadcrumb-item>
             <el-breadcrumb-item :to="{path : '/menu'}">菜单管理</el-breadcrumb-item>
             <el-breadcrumb-item v-if="!$route.params.id">菜单添加</el-breadcrumb-item>
-            <el-breadcrumb-item v-else>菜单修改</el-breadcrumb-item>
+            <el-breadcrumb-item v-else>菜单修改阿瑟东大时代</el-breadcrumb-item>
         </el-breadcrumb>
         <el-form
             ref="menuform" :model="form" label-width="100px"
