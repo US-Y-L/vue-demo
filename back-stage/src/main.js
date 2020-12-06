@@ -6,6 +6,8 @@ import router from './router'
 // import axios from "axios"
 import axios from "./assets/js/http"
 console.log(axios,123123123);
+console.log(axios,123123123);
+console.log(axios,123123123);
 import ElementUi from "element-ui"
 import 'element-ui/lib/theme-chalk/index.css'
 import echarts from 'echarts'
@@ -25,5 +27,5 @@ new Vue({
   template: '<App/>',
   render:h=>h(App),
   store
-  
+
 })
